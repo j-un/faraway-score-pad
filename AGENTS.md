@@ -5,7 +5,7 @@ This document provides instructions for AI agents working on this project.
 ## Agent Operating Procedures
 
 - **WIP Commits**: After each code modification, create a Work-in-Progress (WIP) commit to maintain a detailed history of changes.
-- **Build Verification**: After any code modification, always ensure that `npm run build` executes without generating any build errors or warnings.
+- **Build Verification**: After any code modification, always ensure that `npm run build` and `npm run test` executes without generating any errors or warnings.
 - **Prohibited Commands**: DO NOT execute commands that run indefinitely in the foreground, such as `npm run dev`, `yarn dev`, or `vite`. These commands block the agent's execution flow and cause the session to hang. Rely exclusively on `npm run build` to verify that the application compiles correctly.
 - **Language**: Think and process information in English, but communicate with the user in Japanese.
 
