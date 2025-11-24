@@ -41,6 +41,8 @@ export const PlayerCard = ({
           type="text"
           value={player.name}
           onChange={(e) => updateName(player.id, e.target.value)}
+          onFocus={(e) => e.target.select()}
+          onClick={(e) => e.target.select()}
           className={`font-bold text-sm md:text-base bg-transparent border-b border-transparent hover:border-slate-300 focus:border-orange-500 focus:outline-hidden px-1 py-0.5 w-full mr-1 ${isWinner ? 'text-orange-800' : 'text-slate-800'}`}
         />
         {playerCount > 1 && (
