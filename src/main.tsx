@@ -51,7 +51,7 @@ const FarawayScoreSheet = () => {
             onKeyDown={handleKeyDown}
           />
         ))}
-        <AddPlayerButton onAddPlayer={addPlayer} />
+        {players.length < 6 && <AddPlayerButton onAddPlayer={addPlayer} />}
       </div>
     </>
   );
