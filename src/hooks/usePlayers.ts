@@ -101,7 +101,7 @@ export const playersReducer = (state: State, action: Action): State => {
         players: state.players.map((p) => {
           if (p.id !== playerId) return p;
           const newSanctuaries: Sanctuary[] = p.sanctuaries.map((s) =>
-            s.id === sanctuaryId ? ({ ...s, value: score } as Sanctuary) : s
+            s.id === sanctuaryId ? { ...s, value: score } : s
           );
           return { ...p, sanctuaries: newSanctuaries };
         }),
