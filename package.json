@@ -20,7 +20,7 @@
     "@tailwindcss/postcss": "^4.3.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
-    "@types/node": "^25.7.0",
+    "@types/node": "^25.9.0",
     "@vitest/coverage-v8": "^4.1.6",
     "eslint-config-prettier": "^10.1.8",
     "jsdom": "^29.1.1",
@@ -28,8 +28,8 @@
     "prettier": "^3.8.3",
     "tailwindcss": "^4.1.17",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.3",
-    "vite": "^8.0.12",
+    "typescript-eslint": "^8.59.4",
+    "vite": "^8.0.13",
     "vitest": "^4.0.13"
   },
   "dependencies": {
